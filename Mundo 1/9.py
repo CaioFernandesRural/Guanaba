@@ -1,0 +1,20 @@
+"""
+n1=int(input("Digite um numero: "))
+n2=int(input("Digite outro numero: "))
+s=n1+n2
+print("A some de {} e {} e igual a {}".format(n1,n2,s))
+"""
+n=input("Digite.  ")
+print()
+print("numerico "+str(n.isnumeric()))
+print("alphabetico "+str(n.isalpha()))
+print("alphanumerico "+str(n.isalnum()))
+print("ASCII "+str(n.isascii()))
+print("Digito "+str(n.isdigit()))
+print("Identificador "+str(n.isidentifier()))
+print("Decimal "+str(n.isdecimal()))
+print("Printavel "+str(n.isprintable()))
+print("Espaco "+str(n.isspace()))
+print("MAIOR "+str(n.isupper()))
+print("menor "+str(n.islower()))
+print("Titulo "+str(n.istitle()))

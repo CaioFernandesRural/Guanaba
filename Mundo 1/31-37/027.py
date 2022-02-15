@@ -1,0 +1,5 @@
+nome=input("Nome: ")
+no=nome.split()
+ult=len(no)
+print("primeiro: ",no[0])
+print("ultimo  : ",no[ult-1])

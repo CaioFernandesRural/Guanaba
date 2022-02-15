@@ -1,0 +1,6 @@
+nome=input("Nome: ")
+print(nome.upper())
+print(nome.lower())
+print(len(nome)-nome.count(' '))
+nomes=nome.split()
+print(len(nomes[0]))
